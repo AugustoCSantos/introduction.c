@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>              //código feito em aula.
 #define MAX 3
 
 int main(void)
