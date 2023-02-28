@@ -15,17 +15,17 @@ int main()
 
 void mover_disco(int n, char origem, char destino, char aux)
 {
-    if(d == 1)
+    if(n == 1)
     {
         printf("%c %c\n", origem, aux);
     }
     else
     {
-        mover_disco(d - 1, origem, aux, destino);
+        mover_disco(n - 1, origem, aux, destino);
 
         printf("%c %c\n", origem, aux);
 
-        mover_disco(d - 1, destino, origem, aux);
+        mover_disco(n - 1, destino, origem, aux);
     }
     
 }
